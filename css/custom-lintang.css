@@ -1,0 +1,30 @@
+/* Kontainer untuk logo GarisLintang di kanan bawah */
+.garislintang-control-br {
+  background: transparent !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+
+  /* Tambahan untuk hilangkan efek kotak */
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Atur tampilan gambar agar memenuhi wadah tanpa terdistorsi */
+.garislintang-control-br img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+  background: none;
+
+  /* Tambahan untuk pastikan tidak ada efek visual */
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}

@@ -1,0 +1,30 @@
+.my-logo-control {
+  background: #6ed39f; /* Background diubah ke warna hijau muda */
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+  /* Flex untuk memusatkan isi */
+  display: flex;
+  align-items: center;  /* Tengah vertikal */
+  justify-content: center;  /* Tengah horizontal */
+
+  /* Pastikan tidak ada padding/margin tambahan */
+  padding: 2px;
+  margin: 0;
+}
+
+.my-logo-control img {
+  /* Ukuran ikon agar tidak mepet tepi */
+  width: 20%;
+  height: 20%;  
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+
+  /* Hilangkan background dan potensi margin */
+  background: #6ed39f;
+  margin: 0;
+  padding: 0;
+}
